@@ -27,6 +27,14 @@
         "service": "backend"
       }
     },
+
+    {
+      "source": "/share/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+
     {
       "source": "/(.*)",
       "destination": {
