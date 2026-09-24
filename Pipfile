@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 flask = "*"
+psycopg = {extras = ["binary"], version = "*"}
+python-dotenv = "*"
 
 [dev-packages]
 
